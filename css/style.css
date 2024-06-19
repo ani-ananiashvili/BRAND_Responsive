@@ -2,7 +2,6 @@
 
 .shelfSection {
     display: flex;
-    height: 620px;
     background-color: #000;
 }
 
@@ -59,10 +58,80 @@
 }
 
 
+/* media query 
+(shelf section) */
+
+@media (max-width: 1024px) {
+    .divFlex {
+        flex-direction: column;
+        row-gap: 64px;
+    }
+
+    .shelfImageDiv {
+        width: 100%;
+    }
+
+    .textDiv {
+        width: 100%;
+        display: flex;
+        column-gap: 129px;
+    }
+
+    .shelfP {
+        width: 415.5px;
+    }
+
+    .shelfTextP {
+        width: 415.5px;
+    }
+}
+
+@media (max-width: 744px) {
+    .textDiv {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .shelfP {
+        width: 100%;
+        text-align: center;
+    }
+
+    .shelfText {
+        width: 100%;
+        text-align: center;
+    }
+
+    .shelfTextP {
+        width: 100%;
+        text-align: center;
+    }
+
+    .divFlex {
+        row-gap: 29px;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .textDiv {
+        margin-bottom: 24px;
+    }
+
+    .shelfP {
+        font-size: 16px;
+    }
+
+    .shelfTextP {
+        font-size: 14px;
+    }
+
+    .shelfText .text-children {
+        font-size: 14px;
+    }
 
 
-
-
+}
 
 
 
