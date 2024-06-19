@@ -1,3 +1,102 @@
+/* shelf section */
+
+.shelfSection {
+    display: flex;
+    height: 620px;
+    background-color: #000;
+}
+
+.shelfDiv {
+    max-width: 1140px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.divFlex {
+    display: flex;
+    align-items: center;
+    column-gap: 133px;
+}
+
+
+.shelfImageDiv {
+    width: 503.5px;
+}
+
+.shelfImage {
+    width: 100%;
+}
+
+.textDiv {
+    width: 503.5px;
+}
+
+.shelfP {
+    font-family: 'Inter900';
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.shelfText {
+    font-family: 'Inter400';
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.shelfText .text-children {
+    margin-bottom: 8px;
+}
+
+.shelfTextP {
+    margin-bottom: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* sofa section  */
+/* 
 .darkTitle {
     font-family: 'Inter900';
     font-size: 56px;
@@ -51,4 +150,4 @@
     gap: 20px;
     display: flex;
     align-items: center;
-}
+} */
