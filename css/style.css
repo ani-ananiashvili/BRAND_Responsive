@@ -86,18 +86,12 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
 /* media query 
 (feature section) */
+
+
+
+
 
 
 
@@ -171,9 +165,6 @@
 
 /* media query 
 (sofa section) */
-
-
-
 
 
 
@@ -342,3 +333,17 @@
 
 
 }
+
+
+
+
+/* woodenCloset image section */
+.woodenClosetImage {
+    width: 100%;
+}
+
+
+
+/* media query 
+(woodenCloset image section) 
+*/
