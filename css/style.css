@@ -27,6 +27,8 @@
     color: #000000;
 }
 
+/* media query 
+(header section) */
 
 
 
@@ -44,6 +46,58 @@
 
 
 
+
+/* feature section  */
+
+.featureSection {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F3F3F3;
+    width: 1, 440px;
+    padding: 64px 150px 64px 150px;
+    gap: 30px;
+}
+
+
+.featureDiv {
+    width: 360px;
+    height: 116.2px;
+    gap: 16px;
+}
+
+.featureTitle {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    color: #000000;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Inter700';
+    margin-bottom: 16px;
+}
+
+.featureP {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    font-family: 'Inter400';
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query 
+(feature section) */
 
 
 
