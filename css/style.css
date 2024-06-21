@@ -77,31 +77,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* sofa section  */
 
 .sofaSection {
@@ -111,6 +86,7 @@
     display: flex;
     column-gap: 130px;
     align-items: center;
+    height: 556px;
 }
 
 .textDiv {
@@ -180,19 +156,37 @@
 (sofa section) */
 
 @media (max-width: 1024px) {
-    .sofaSection {
-        flex-direction: column;
-        gap: 130px;
 
+    .sofaSection {
+        display: flex;
+        flex-direction: column;
+        padding: 32px;
+        height: 826px;
     }
 
     .textDiv {
         width: 100%;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
         text-align: center;
+        gap: 20px;
+    }
+
+    .darkTitle {
+        width: 630px;
+        text-align: center;
+    }
+
+    .sofaP {
+        width: 630px;
+        text-align: center;
+    }
+
+    .actionDiv {
+        height: 48px;
+        padding-bottom: 68px;
     }
 
     .sofaImageDiv {
@@ -206,14 +200,72 @@
 }
 
 @media (max-width: 744px) {
+
+    .textDiv {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
     .actionDiv {
         flex-direction: column;
+        height: 84px;
+        gap: 16px;
     }
+
+    .action {
+        width: 90px;
+        height: 40px;
+        border-radius: 32px;
+    }
+
+    .sofaSection {
+        height: 760px;
+        gap: 24px;
+    }
+
+    .darkTitle {
+        font-size: 40px;
+        line-height: 48.5px;
+        letter-spacing: -1px;
+        text-align: center;
+    }
+
+    .sofaP {
+        width: 696px;
+        height: 56px;
+        text-align: center;
+        margin: 24px 0px;
+    }
+
 
 }
 
+@media (max-width: 375px) {
+    .sofaSection {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        height: 695px;
+    }
 
+    .darkTitle {
+        width: 327px;
+        text-align: center;
+    }
 
+    .sofaP {
+        width: 327px;
+        margin: 0px;
+        margin-bottom: 24px;
+    }
+
+    .actionP {
+        text-align: center;
+    }
+}
 
 
 
