@@ -1,1 +1,1 @@
-# BRAND-_Responsive
+# BRAND_Responsive
