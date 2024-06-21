@@ -5,9 +5,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 32px;
-    width: 100%;
+    /* width: 100%;
     position: fixed;
-    z-index: 1;
+    z-index: 1; */
     background-color: #FFF;
 }
 
@@ -46,15 +46,14 @@
     color: #F3F3F3;
 }
 
-
-
+.brandLogo {
+    width: 101px;
+    height: 27px;
+}
 
 
 /* media query 
 (header section) */
-
-@media (max-width: 1024px) {}
-
 
 @media (max-width: 744px) {}
 
@@ -71,7 +70,36 @@
     .burgerBar {
         display: block;
     }
+
+    .brandLogo {
+        width: 72px;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* sofa section  */
@@ -83,7 +111,6 @@
     display: flex;
     column-gap: 130px;
     align-items: center;
-    height: 777px;
 }
 
 .textDiv {
