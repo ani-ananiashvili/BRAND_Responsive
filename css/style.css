@@ -435,6 +435,7 @@
 (shelf section) */
 
 @media (max-width: 1024px) {
+
     .divFlex {
         flex-direction: column;
         row-gap: 64px;
@@ -445,8 +446,9 @@
     }
 
     .textDiv {
-        width: 100%;
         display: flex;
+        flex-direction: row;
+        width: 100%;
         column-gap: 129px;
     }
 
@@ -454,20 +456,33 @@
         width: 415.5px;
     }
 
-    .shelfTextP {
+    .shelfText {
         width: 415.5px;
     }
+
 }
 
 @media (max-width: 744px) {
+
+    .divFlex {
+        flex-direction: column;
+        row-gap: 27px;
+        text-align: center;
+        align-items: center;
+    }
+
     .textDiv {
         flex-direction: column;
         text-align: center;
+        align-items: center;
+        gap: 29px;
     }
 
     .shelfP {
         width: 100%;
+        font-size: 23px;
         text-align: center;
+
     }
 
     .shelfText {
@@ -475,20 +490,23 @@
         text-align: center;
     }
 
+    .text-children {
+        padding-bottom: 8px;
+    }
+
     .shelfTextP {
         width: 100%;
         text-align: center;
+        padding-bottom: 29px;
     }
-
-    .divFlex {
-        row-gap: 29px;
-    }
-
 }
 
 @media (max-width: 375px) {
+
     .textDiv {
-        margin-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
     }
 
     .shelfP {
@@ -497,10 +515,12 @@
 
     .shelfTextP {
         font-size: 14px;
+        padding: 14px;
     }
 
     .shelfText .text-children {
         font-size: 14px;
+        padding: 2px;
     }
 
 
