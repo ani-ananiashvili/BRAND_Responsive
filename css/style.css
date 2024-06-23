@@ -438,13 +438,14 @@
 
      .textDiv {
          display: flex;
-         flex-direction: column;
+         flex-direction: row;
          width: 100%;
          column-gap: 129px;
      }
 
      .shelfP {
          width: 415.5px;
+         height: 185px;
      }
 
      .shelfText {
@@ -471,6 +472,7 @@
 
      .shelfP {
          width: 100%;
+         height: 100%;
          font-size: 23px;
          text-align: center;
 
