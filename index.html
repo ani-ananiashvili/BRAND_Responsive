@@ -13,6 +13,8 @@
 
 <body>
 
+    <!-- header section -->
+
     <header>
         <div class="headerSection">
             <a href="index.html">
@@ -40,6 +42,7 @@
 
 
     <!-- sofa section -->
+
     <section class="fullSofaSection">
         <div class="sofaSection">
             <div class="textDiv">
@@ -65,7 +68,6 @@
             </div>
         </div>
     </section>
-
 
     <!-- feature section -->
 
@@ -107,10 +109,8 @@
         </div>
     </section>
 
-
-
-
     <!-- shelf section -->
+
     <section class="shelfSection">
         <div class="shelfDiv divFlex">
             <div class="shelfImageDiv">
@@ -134,21 +134,20 @@
                     <h4 class="text-children">Publish across social channels in a click</h4>
                     <h4 class="text-children">Sell your videos worldwide</h4>
                     <h4 class="text-children last-txt-child">Embed your work with </h4>
-
                 </div>
             </div>
         </div>
     </section>
 
-
     <!-- woodenCloset image section -->
+
     <section>
         <div class="woodenClosetDiv">
             <picture>
                 <source media="(min-width:1024px)" srcset="images/woodenCloset1.png">
                 <source media="(min-width:744px)" srcset="images/woodenCloset2.png">
                 <source media="(min-width:375px)" srcset="images/woodenCloset3.png">
-                <img src="images/woodenCloset4.png" class="woodenClosetImage">
+                <img src="images/woodenCloset4.png" alt="image" class="woodenClosetImage">
             </picture>
             <div class="imageTextDiv">
                 <h5 class="imageTitle1">Tagline</h5>
@@ -166,22 +165,24 @@
 
     <footer>
         <div class="footerContent">
-            <div class="footerListsDiv">
-                <a href=""><img src="images/whiteLogo.svg" alt="logo"></a>
+            <div class="logoAndFirsColumn">
+                <div class="footerListsDiv whiteBrand">
+                    <a href=""><img class="footerBrandImage" src="images/whiteLogo.svg" alt="logo"></a>
+                </div>
+                <div class="footerListsDiv firstFooterList">
+                    <ul>
+                        <h4 class="firstSecondThirdTitles"><a class="footerTitles" href="">First column</a></h4>
+                        <div class="listGap">
+                            <li><a class="footerList" href="">First page</a></li>
+                            <li><a class="footerList" href="">Second page</a></li>
+                            <li><a class="footerList" href="">Third</a></li>
+                            <li><a class="footerList" href="">Fourth</a></li>
+                        </div>
+                    </ul>
+                </div>
             </div>
             <div class="footerListsDiv">
-                <ul>
-                    <h4 class="firstSecondThirdTitles"><a class="footerTitles" href="">First column</a></h4>
-                    <div class="listGap">
-                        <li><a class="footerList" href="">First page</a></li>
-                        <li><a class="footerList" href="">Second page</a></li>
-                        <li><a class="footerList" href="">Third</a></li>
-                        <li><a class="footerList" href="">Fourth</a></li>
-                    </div>
-                </ul>
-            </div>
-            <div class="footerListsDiv">
-                <ul>
+                <ul class="footerUls">
                     <h4 class="firstSecondThirdTitles"><a class="footerTitles" href="">Second</a></h4>
                     <div class="listGap">
                         <li><a class="footerList" href="">Fifth page</a></li>
@@ -191,7 +192,7 @@
                 </ul>
             </div>
             <div class="footerListsDiv">
-                <ul>
+                <ul class="footerUls">
                     <h4 class="firstSecondThirdTitles"><a class="footerTitles" class="footerTitles" href="">Third</a>
                     </h4>
                     <div class="listGap">
@@ -203,7 +204,8 @@
             </div>
             <div class="footerListsDiv lastFooterDiv">
                 <h4><a class="footerTitles" href="">Subscribe</a></h4>
-                <p><a class="footerP" href="">Join our newsletter to stay up to date on features and releases</a></p>
+                <p><a class="footerP" href="">Join our newsletter to stay up to date on features and releases</a>
+                </p>
             </div>
         </div>
     </footer>
