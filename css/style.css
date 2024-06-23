@@ -185,7 +185,6 @@
  /* media query 
 (sofa section) */
 
-
  @media (max-width: 1024px) {
 
      .sofaSection {
@@ -295,7 +294,6 @@
      margin: 0 auto;
  }
 
-
  .featureTitle {
      display: flex;
      align-items: center;
@@ -313,7 +311,6 @@
      font-family: 'Inter400';
      color: #000000;
  }
-
 
 
  /* media query 
@@ -384,7 +381,6 @@
      align-items: center;
      column-gap: 133px;
  }
-
 
  .shelfImageDiv {
      width: 503.5px;
@@ -518,7 +514,6 @@
          padding: 2px;
      }
 
-
  }
 
 
@@ -610,7 +605,6 @@
  }
 
 
-
  /* footer section */
 
  .footerContent {
@@ -685,8 +679,6 @@
  /* media query 
 (footer section) 
 */
-
-
 
  @media (max-width: 1024px) {
 
