@@ -115,10 +115,6 @@
      height: 556px;
  }
 
- .textDiv {
-     width: 490px;
- }
-
  .darkTitle {
      font-family: 'Inter900';
      font-size: 56px;
@@ -175,10 +171,11 @@
      color: #000;
  }
 
- .textDiv {
+ .sofaTextDiv {
      display: flex;
      flex-direction: column;
      gap: 40px;
+     width: 490px;
  }
 
 
@@ -198,7 +195,7 @@
 
      }
 
-     .textDiv {
+     .sofaTextDiv {
          width: 100%;
          flex-direction: column;
          align-items: center;
@@ -438,7 +435,7 @@
 
      .textDiv {
          display: flex;
-         flex-direction: column;
+         flex-direction: row;
          width: 100%;
          column-gap: 129px;
      }
